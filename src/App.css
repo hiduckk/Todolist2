@@ -1,0 +1,100 @@
+.hidden{
+  background-color: rgb(196, 196, 196);
+  text-decoration: line-through;
+}
+.hidden .Icon button{
+  background-color:rgb(196, 196, 196);
+}
+body{
+  background-color:#00796b;
+  height:100%;
+  width:100%;
+  font-size: 15px;
+}
+.total h2{
+  color: #004c40;
+  display: flex;
+  font-size: 30px;
+  font-weight: 800;
+  justify-content: center;
+}
+.total{
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 40px;
+  height:100%; 
+}
+
+.inputlist{
+  list-style: none;
+}
+.todo{
+  display: flex;
+  justify-content: center;
+}
+.todo input:nth-child(1){
+  flex-grow:3;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+  width:60%;
+}
+.todo button{
+  border: none;
+  border-radius: 3px;
+  background-color:#00796b;
+  color: beige;
+  font-weight: 500;
+}
+.newtodo{
+  display: flex;
+  align-items: center;
+}
+.newtodo input:nth-child(1){
+  
+    flex-grow:3;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 13px;
+    width:60%;
+}
+.Icon{
+  display: flex;
+  align-content: center;
+}
+.Icon button{
+  background-color: white;
+  border: none;
+  color:#12005e
+}
+.Icon button:hover{
+  color:red;
+  cursor: pointer; 
+}
+
+.list li{
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.list ul{
+padding: 0 10px;
+}
+#ccheck{
+
+  background-color: #00796b;
+}
+.content{
+  display: flex;
+  align-items: center;
+}
+.content input{
+  margin-right:10px;
+
+}
+input[type="checkbox"]:checked {
+  background: #12005e;
+}
+.Icon button{
+  padding-top:5px;
+}
